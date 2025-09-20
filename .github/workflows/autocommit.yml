@@ -25,7 +25,7 @@ jobs:
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           echo $d > LAST_UPDATED
           
-      - name: Commit changes
+      - name: wjdhaixing1
         run: |
           git config --local user.email "mazipanneh@gmail.com"
           git config --local user.name "mazipan"
@@ -50,4 +50,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           directory: "."
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
