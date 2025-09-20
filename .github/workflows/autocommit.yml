@@ -50,4 +50,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           directory: "."
-          github_token: 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
+          github_token: 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
