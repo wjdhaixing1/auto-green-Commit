@@ -27,8 +27,8 @@ jobs:
           
       - name: wjdhaixing1
         run: |
-          git config --local user.email "mazipanneh@gmail.com"
-          git config --local user.name "mazipan"
+          git config --local user.email "wjdhaixing@gmail.com"
+          git config --local user.name "wjdhaixing1"
           git add -A
           
           arr[0]="chore(bot): 😂 auto commit"
@@ -50,4 +50,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           directory: "."
-          github_token: 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
+          github_token: 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
