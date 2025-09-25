@@ -48,8 +48,7 @@ jobs:
           
      
       - name: GitHub Push
-        run: |
-          uses: ad-m/github-push-action@v0.6.0
-          with:
-           directory: "."
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
