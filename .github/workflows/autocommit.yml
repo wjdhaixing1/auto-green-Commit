@@ -45,7 +45,6 @@ jobs:
           rand=$[$RANDOM % ${#arr[@]}]
           
           git commit -m "${arr[$rand]}"
-        
 - name: Pull latest changes
   run: git pull origin master --rebase
 
